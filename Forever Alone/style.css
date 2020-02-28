@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family: Montserrat;
+}
+
+
+.jumbotron {
+    margin-bottom: 0;
+    padding: 20px;
+    background:linear-gradient(125deg, #00AEEF, #1D60AA, #302C7B,  #3A1264);
+    background-size: 400%;
+    animation: colorSpin 15s  infinite;
+  }
+
+  .navbar{
+    background:linear-gradient(125deg, #00AEEF, #1D60AA, #302C7B,  #3A1264);
+    background-size: 400%;
+    animation: colorSpin 15s  infinite;
+    border: none;  
+    margin-bottom: 0px;
+}
+
+  @keyframes colorSpin{
+    25%{background-position: 0 50%}
+    50%{background-position: 100% 50%}
+  100%{background-position: 0 50%}
+  }
+
+#logoHead{
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+.navbar-inverse .navbar-nav>.active>a ,
+ .navbar-inverse .navbar-nav>.active>a:focus,
+ .navbar-inverse .navbar-nav>.active>a:hover,
+ .navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+    background-color: white;
+    color: #3A1264;
+    font-weight: 700;
+    border-radius: 10px 0 0 0;
+}
+
+.badge{
+    margin-left: 1.2em;
+    line-height:1em;
+    color: white;
+    background: #FF9900;
+    text-align:center;
+    min-width: 1em;
+}
+
+ .navbar{
+     width: 100%;
+     border-radius: 0;
+ }
+.affix {
+    top: 0;
+    z-index: 3 ;
+  }
+
+
+
+.item img{
+    width: 100%;
+}
+
+
+.imgHomes{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-height: 450px;
+  -webkit-filter: grayscale(90%);
+  filter: grayscale(100%);
+}
+.titleHome{
+  text-align: center;
+  margin: 40px;
+  color: #302C7B;
+}
+.titleHome b{
+font-weight: 1200;
+}
+
+
+
+#who{
+  margin: 0;
+  padding: 0;
+}
+
+.divhomes h4{
+  line-height: 200%;
+}
+
+.productPage{
+    position: relative;
+}
+
+ul.nav-pills {
+    top: 70px;
+  }
+
+
+
+  @media screen and (max-width: 810px) {
+    #seals, #capacitor, #wire  {
+      margin-left: 150px;
+    }
+  }
+  
+  .productimg{
+    width: 150px;
+  }
+
+  .imgabout{
+    float: right;
+    width: 400px;
+    height: 300px;
+    margin-top: 60px;
+  }
+
+  .col-sm-3{
+   margin-top: 30px;
+   margin-left: 0;
+   margin-bottom: 30px;
+    
+  }
+
+  .insideabout{
+    text-align: center;
+    line-height: 200%;
+  }
+  .partner{
+    width: 90%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  
+
+  .Add{
+    background-color: #FF9900;
+    width: 100%;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: medium;
+  }
+
+  .Add:hover{
+    background-color: rgb(252, 168, 13);
+    color: white;
+  }
+  .table, th {
+    text-align: center;
+  }
+  footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+    height: 300px;
+  }
+.modal-footer{
+  background-color: #f2f2f2 ;
+  border-radius:  0 0 10px 10px
+}
+.modal-dialog{
+  border-radius: 25px;
+}
+
+#welcomelog{
+  font-weight: 800;
+  text-align: center;
+}
+#welcomelog1, .modal-header{
+  text-align: center;
+}
+#usertag{
+  font-weight: 1000;
+  font-size: 1.2em; 
+}
+
+.map{
+  margin-top: 50px;
+}
+
+/*contact for*/
+.contact{
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
